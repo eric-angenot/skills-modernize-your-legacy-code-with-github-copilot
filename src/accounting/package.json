@@ -1,0 +1,25 @@
+{
+  "name": "account-management-system",
+  "version": "1.0.0",
+  "description": "Account Management System - Node.js version of legacy COBOL application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --inspect index.js",
+    "test": "jest --runInBand"
+  },
+  "keywords": [
+    "account",
+    "management",
+    "banking",
+    "student-accounts"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
